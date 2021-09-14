@@ -61,8 +61,8 @@
   header {
     position: relative;
     background-color: black;
-    height: 75vh;
-    min-height: 25rem;
+    height: 80vh;
+    min-height: 30rem;
     width: 100%;
     overflow: hidden;
   }
@@ -122,3 +122,99 @@
     font-size: small;
 
   }
+
+  .aler_small_l {
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+    width: 50px;
+
+  }
+
+  .contenedor{
+
+    width:200px;
+    height:240px;
+    position:absolute;
+    right:0px;
+}
+
+.botonF1{
+    
+    width:220px;
+    height:45px;
+    border-radius: 30px;
+    background:#E97412;
+    right:0;
+    bottom:0;
+    position:absolute;
+    margin-right:30px;
+    margin-bottom:30px;
+    margin-top:30px;
+    border:none;
+    outline:none;
+    color:#FFF;
+    font-size:18px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+  }
+  span{
+    transition:.5s;  
+  }
+  .botonF1:hover span{
+    transform:rotate(360deg);
+  }
+  .botonF1:active{
+    transform:scale(1.1);
+  }
+  .btnF{
+    width:200px;
+    height:30px;
+    border-radius: 30px;
+    border:none;
+    color:#FFF;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-size:15px;
+    outline:none;
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin-right:20px;
+    transform:scale(0);
+  }
+  .botonF2{
+    margin-bottom:50px;
+    background:#25d366;
+    margin-bottom:85px;
+    transition:0.5s;
+  }
+  .botonF3{
+    background:#3B5998;
+    margin-bottom:130px;
+    transition:0.7s;
+  }
+  .botonF4{
+    background:#009688;
+    margin-bottom:175px;
+    transition:0.9s;
+  }
+  .botonF5{
+    background:#FF5722;
+    margin-bottom:220px;
+    transition:0.99s;
+  }
+  .animacionVer{
+    transform:scale(1);
+  }
+
+  .estacion {
+    height: 200px;
+    width: 200px;
+  }
+  
