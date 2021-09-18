@@ -15,17 +15,17 @@ $( document ).ready(function() {
     });
 
     $( "#btn_whatsapp" ).click(function() {
-        window.open("https://wa.me/525628049165", "Whastapp", "width=1000, height=1000")  
+        window.open("https://wa.me/525628049165", '_blank')  
     });
 
     $( "#btn_facebook" ).click(function() {
         console.log("hola")
-        window.open("https://www.facebook.com/PetxoticsMX", "Whastapp", "width=1000, height=1000")  
+        window.open("https://www.facebook.com/PetxoticsMX", '_blank')  
     });
 
     $( "#btn_instagram" ).click(function() {
         console.log("hola")
-        window.open("https://www.instagram.com/petxotics_mx/", "Whastapp", "width=1000, height=1000")  
+        window.open("https://www.instagram.com/petxotics_mx/", '_blank')  
     });
 
     $('.botonF1').hover(function(){
