@@ -23,7 +23,7 @@ $( document ).ready(function() {
         window.open("https://www.facebook.com/PetxoticsMX", "Whastapp", "width=1000, height=1000")  
     });
 
-    $( "#btn_facebook" ).click(function() {
+    $( "#btn_instagram" ).click(function() {
         console.log("hola")
         window.open("https://www.instagram.com/petxotics_mx/", "Whastapp", "width=1000, height=1000")  
     });
